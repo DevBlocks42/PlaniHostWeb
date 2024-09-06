@@ -15,3 +15,9 @@ SQL :
       GRANT SELECT, DELETE, UPDATE, INSERT ON planihost.* TO 'dbadmin'@'localhost';
       FLUSH PRIVILEGES;
 
+
+Initialisation de l'application web 
+
+![1ere-auth](https://github.com/user-attachments/assets/5edb1a55-49bf-42a1-b1ad-e4e4877bd71d)
+
+
