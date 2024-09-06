@@ -1,0 +1,16 @@
+<section class = 'section is-medium'>
+    <form method = "POST" class = 'control' action = './mailer '>
+        <label class = 'label' for = 'email'>Adresse email</label>
+        <input name = "email" class = 'input' type = 'email' id = 'email' placeholder="jean-dupont@yahoo.com">
+        <label class = 'label' for = 'title'>Titre</label>
+        <input name = "title" class = 'input' type = 'text' id = 'title'>
+        <label class = 'label' for = 'message'>Message</label>
+        <textarea name = "message" class = 'textarea' id = 'message'></textarea><br>
+        <label class = 'checkbox'>
+            <input name = "rgpd" id = 'rgpd' type = 'checkbox'>
+            En cochant cette case, vous confirmez être en accord avec notre <a href = './legal'>politique de confidentialité</a>.
+        </label><br>
+        <input class = 'button mt-4' type = 'submit' value = 'Envoyer'>
+    </form>
+</section>
+<section class = 'section is-small'></section>
