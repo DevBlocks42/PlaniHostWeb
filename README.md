@@ -6,6 +6,8 @@
 - Composer
 - Stripe
 
+SQL : 
+
       CREATE DATABASE planihost;
       CREATE USER 'dbadmin'@'localhost' IDENTIFIED BY 'P@$$word1';
       USE planihost;
